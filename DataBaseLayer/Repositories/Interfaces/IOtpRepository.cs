@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ModelLayer.DTOs.Auth
+namespace DataBaseLayer.Repositories.Interfaces
 {
-    internal class RegisterDto
+    public interface IOtpRepository
     {
-
     }
 }
