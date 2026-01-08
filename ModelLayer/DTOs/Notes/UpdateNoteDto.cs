@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ModelLayer.DTOs.Notes
+﻿namespace ModelLayer.DTOs.Notes
 {
-    internal class UpdateNoteDto
+    public class UpdateNoteDto
     {
+        public string Title { get; set; } = string.Empty;
+        public string Content { get; set; } = string.Empty;
+        public string Color { get; set; } = "#FFFFFF";
+        public bool IsPinned { get; set; }
+        public bool IsArchived { get; set; }
     }
 }

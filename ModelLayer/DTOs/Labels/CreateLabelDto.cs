@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ModelLayer.DTOs.Labels
+﻿namespace ModelLayer.DTOs.Labels
 {
-    internal class CreateLabelDto
+    public class CreateLabelDto
     {
+        public string Name { get; set; } = string.Empty;
     }
 }

@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using ModelLayer.Enums;
 
 namespace ModelLayer.DTOs.Collaborators
 {
-    internal class AddCollaboratorDto
+    public class AddCollaboratorDto
     {
+        public int NoteId { get; set; }
+        public int UserId { get; set; }
+        public PermissionLevel Permission { get; set; }
     }
 }

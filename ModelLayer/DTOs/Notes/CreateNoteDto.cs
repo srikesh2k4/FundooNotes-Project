@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ModelLayer.DTOs.Notes
+﻿namespace ModelLayer.DTOs.Notes
 {
-    internal class CreateNoteDto
+    public class CreateNoteDto
     {
+        public string Title { get; set; } = string.Empty;
+        public string Content { get; set; } = string.Empty;
+        public string Color { get; set; } = "#FFFFFF";
     }
 }

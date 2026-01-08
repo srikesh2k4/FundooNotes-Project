@@ -1,38 +1,50 @@
 ﻿using DataBaseLayer.Entities;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.EntityFrameworkCore.Metadata.Conventions;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DataBaseLayer.Configurations
 {
-    public class UserConfiguration:IEntityTypeConfiguration<User>
+    public class UserConfiguration : IEntityTypeConfiguration<User>
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.ToTable("Users");
-            //primary key
-            builder.HasKey(u => u.UserId);
-            builder.Property(u => u.UserId).ValueGeneratedOnAdd();
-            //User name 
-            builder.Property(u => u.UserName).IsRequired().HasMaxLength(100);
-            builder.HasIndex(u => u.UserName).IsUnique().IsUnique().HasDatabaseName("UX_Users_UserName");
-            //UserEmail
-            builder.Property(u => u.UserEmail).IsRequired().HasMaxLength(150);
-            builder.HasIndex(u => u.UserEmail).IsUnique().HasDatabaseName("UX_Users_UserName");
+            builder.HasKey(x => x.Id);
 
-            //Phone number
-            builder.Property(u => u.UserPhoneNumber).IsRequired().HasMaxLength(20);
-            builder.HasIndex(u => u.UserPhoneNumber).IsUnique().HasDatabaseName("UX_Users_Phone");
+            builder.Property(x => x.Name)
+                   .IsRequired()
+                   .HasMaxLength(128);
 
-            //Password
-            builder.Property(u => u.UserPhoneNumber).IsRequired().HasMaxLength(255);
+            builder.Property(x => x.Email)
+                   .IsRequired()
+                   .HasMaxLength(255);
 
-            //created At
-            builder.Property(u => u.CreatedAt).IsRequired().HasDefaultValueSql("GETUTCDATE()");
+            builder.Property(x => x.PasswordHash)
+                   .IsRequired()
+                   .HasMaxLength(256);
+
+            builder.Property(x => x.IsEmailVerified)
+                   .HasDefaultValue(false);
+
+            builder.Property(x => x.EmailVerificationToken)
+                   .HasMaxLength(450)
+                   .IsRequired(false);
+
+            builder.Property(x => x.ResetPasswordToken)
+                   .HasMaxLength(450)
+                   .IsRequired(false);
+
+            builder.Property(x => x.EmailVerificationExpiry)
+                   .IsRequired(false);
+
+            builder.Property(x => x.ResetPasswordExpiry)
+                   .IsRequired(false);
+
+            builder.HasIndex(x => x.Email)
+                   .IsUnique();
+
+            builder.HasIndex(x => x.EmailVerificationToken);
+
+            builder.HasIndex(x => x.ResetPasswordToken);
         }
     }
 }

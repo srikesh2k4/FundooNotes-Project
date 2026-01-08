@@ -1,21 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
 
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
-    <ProjectReference Include="..\DataBaseLayer\DataBaseLayer.csproj" />
-    <ProjectReference Include="..\FundooNotes\FundooNotes.csproj" />
-    <ProjectReference Include="..\ModelLayer\ModelLayer.csproj" />
-  </ItemGroup>
+		<!-- Test project settings -->
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="IntegrationTests\" />
-    <Folder Include="UnitTests\" />
-  </ItemGroup>
+	<ItemGroup>
+		<!-- NUnit framework -->
+		<PackageReference Include="NUnit" Version="3.14.0" />
+
+		<!-- NUnit test adapter for Visual Studio / dotnet test -->
+		<PackageReference Include="NUnit3TestAdapter" Version="4.5.0">
+			<PrivateAssets>all</PrivateAssets>
+		</PackageReference>
+
+		<!-- Required test SDK -->
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+
+		<!-- Optional but recommended -->
+		<PackageReference Include="FluentAssertions" Version="6.12.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Optional folder structure -->
+		<Folder Include="UnitTests\" />
+		<Folder Include="IntegrationTests\" />
+	</ItemGroup>
 
 </Project>
