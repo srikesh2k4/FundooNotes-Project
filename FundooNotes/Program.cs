@@ -9,21 +9,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using ModelLayer.Configuration;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // ========================================
-// 1. CONFIGURATION SETTINGS
-// ========================================
-builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
-builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
-builder.Services.Configure<AppSettings>(builder.Configuration.GetSection("AppSettings"));
-builder.Services.Configure<CorsSettings>(builder.Configuration.GetSection("CorsSettings"));
-
-// ========================================
-// 2. DATABASE CONFIGURATION
+// 1. DATABASE CONFIGURATION
 // ========================================
 var connectionString = builder.Configuration.GetConnectionString("FundooConnection");
 if (string.IsNullOrEmpty(connectionString))
@@ -38,7 +29,7 @@ builder.Services.AddDbContext<FundooAppDbContext>(options =>
         sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
 // ========================================
-// 3. REPOSITORY REGISTRATION
+// 2. REPOSITORY REGISTRATION
 // ========================================
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<INoteRepository, NoteRepository>();
@@ -46,7 +37,7 @@ builder.Services.AddScoped<ILabelRepository, LabelRepository>();
 builder.Services.AddScoped<ICollaboratorRepository, CollaboratorRepository>();
 
 // ========================================
-// 4. SERVICE REGISTRATION
+// 3. SERVICE REGISTRATION
 // ========================================
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<INoteService, NoteService>();
@@ -54,22 +45,23 @@ builder.Services.AddScoped<ILabelService, LabelService>();
 builder.Services.AddScoped<ICollaboratorService, CollaboratorService>();
 
 // ========================================
-// 5. HELPER REGISTRATION
+// 4. HELPER REGISTRATION
 // ========================================
 builder.Services.AddScoped<JwtTokenGenerator>();
 builder.Services.AddScoped<OtpEmailSender>();
 
 // ========================================
-// 6. JWT AUTHENTICATION (FIXED WITH NULL CHECKS)
+// 5. JWT AUTHENTICATION (FIXED - USES "Jwt" NOT "JwtSettings")
 // ========================================
-var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+var jwtKey = builder.Configuration["Jwt:Key"];
+var jwtIssuer = builder.Configuration["Jwt:Issuer"];
+var jwtAudience = builder.Configuration["Jwt:Audience"];
 
-// Validate JWT Key
-var jwtKey = jwtSettings["Key"];
+// Validate JWT Configuration
 if (string.IsNullOrEmpty(jwtKey))
 {
     throw new InvalidOperationException(
-        "JWT Key is not configured. Please add 'JwtSettings:Key' to appsettings.json. " +
+        "JWT Key is not configured. Please add 'Jwt:Key' to appsettings.json. " +
         "Example: \"Key\": \"MySecretKeyMinimum16Characters\"");
 }
 
@@ -80,20 +72,16 @@ if (jwtKey.Length < 16)
         $"Current length: {jwtKey.Length}");
 }
 
-// Validate JWT Issuer
-var jwtIssuer = jwtSettings["Issuer"];
 if (string.IsNullOrEmpty(jwtIssuer))
 {
     throw new InvalidOperationException(
-        "JWT Issuer is not configured. Please add 'JwtSettings:Issuer' to appsettings.json");
+        "JWT Issuer is not configured. Please add 'Jwt:Issuer' to appsettings.json");
 }
 
-// Validate JWT Audience
-var jwtAudience = jwtSettings["Audience"];
 if (string.IsNullOrEmpty(jwtAudience))
 {
     throw new InvalidOperationException(
-        "JWT Audience is not configured. Please add 'JwtSettings:Audience' to appsettings.json");
+        "JWT Audience is not configured. Please add 'Jwt:Audience' to appsettings.json");
 }
 
 var keyBytes = Encoding.UTF8.GetBytes(jwtKey);
@@ -121,17 +109,17 @@ builder.Services.AddAuthentication(options =>
 });
 
 // ========================================
-// 7. CORS POLICY
+// 6. CORS POLICY
 // ========================================
-var corsSettings = builder.Configuration.GetSection("CorsSettings:AllowedOrigins").Get<string[]>();
+var corsOrigins = builder.Configuration.GetSection("CorsSettings:AllowedOrigins").Get<string[]>();
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("FundooPolicy", policy =>
     {
-        if (corsSettings != null && corsSettings.Length > 0)
+        if (corsOrigins != null && corsOrigins.Length > 0)
         {
-            policy.WithOrigins(corsSettings)
+            policy.WithOrigins(corsOrigins)
                   .AllowAnyMethod()
                   .AllowAnyHeader()
                   .AllowCredentials();
@@ -147,13 +135,13 @@ builder.Services.AddCors(options =>
 });
 
 // ========================================
-// 8. CONTROLLERS & API EXPLORER
+// 7. CONTROLLERS & API EXPLORER
 // ========================================
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 // ========================================
-// 9. SWAGGER CONFIGURATION
+// 8. SWAGGER CONFIGURATION
 // ========================================
 builder.Services.AddSwaggerGen(options =>
 {
@@ -197,13 +185,32 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 // ========================================
-// 10. LOGGING
+// 9. LOGGING
 // ========================================
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 
 var app = builder.Build();
+
+// ========================================
+// 10. CONFIGURATION VERIFICATION (DEBUG)
+// ========================================
+Console.WriteLine("\n" + new string('=', 60));
+Console.WriteLine("🔍 CONFIGURATION VERIFICATION");
+Console.WriteLine(new string('=', 60));
+Console.WriteLine($"Environment: {app.Environment.EnvironmentName}");
+Console.WriteLine($"Database: {connectionString?.Split(';')[0]}");
+Console.WriteLine($"SMTP Host: {builder.Configuration["Smtp:Host"]}");
+Console.WriteLine($"SMTP User: {builder.Configuration["Smtp:User"]}");
+Console.WriteLine($"SMTP Port: {builder.Configuration["Smtp:Port"]}");
+Console.WriteLine($"JWT Issuer: {jwtIssuer}");
+Console.WriteLine($"JWT Audience: {jwtAudience}");
+Console.WriteLine($"JWT Key Length: {jwtKey.Length} characters");
+Console.WriteLine($"CORS Origins: {(corsOrigins != null ? string.Join(", ", corsOrigins) : "None (Allow All)")}");
+Console.WriteLine(new string('=', 60));
+Console.WriteLine("✅ All configurations loaded successfully!");
+Console.WriteLine(new string('=', 60) + "\n");
 
 // ========================================
 // 11. MIDDLEWARE PIPELINE
@@ -239,4 +246,7 @@ app.MapControllers();
 // ========================================
 // 12. RUN APPLICATION
 // ========================================
+Console.WriteLine("🚀 Fundoo Notes API is running...");
+Console.WriteLine($"📍 Swagger UI: {(app.Environment.IsDevelopment() ? "https://localhost:7014" : "Not available in production")}\n");
+
 app.Run();
