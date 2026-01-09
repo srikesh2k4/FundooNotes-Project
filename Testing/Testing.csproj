@@ -1,35 +1,45 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-
-		<!-- Test project settings -->
 		<IsPackable>false</IsPackable>
 		<IsTestProject>true</IsTestProject>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<!-- NUnit framework -->
-		<PackageReference Include="NUnit" Version="3.14.0" />
-
-		<!-- NUnit test adapter for Visual Studio / dotnet test -->
-		<PackageReference Include="NUnit3TestAdapter" Version="4.5.0">
+		<!-- Test Framework -->
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.0" />
+		<PackageReference Include="NUnit" Version="4.2.2" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
+		<PackageReference Include="NUnit.Analyzers" Version="4.3.0">
 			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 
-		<!-- Required test SDK -->
-		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+		<!-- Code Coverage -->
+		<PackageReference Include="coverlet.collector" Version="6.0.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
 
-		<!-- Optional but recommended -->
-		<PackageReference Include="FluentAssertions" Version="6.12.0" />
+		<!-- Mocking & Assertions -->
+		<PackageReference Include="Moq" Version="4.20.70" />
+		<PackageReference Include="FluentAssertions" Version="6.12.1" />
+
+		<!-- Integration Testing -->
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.11" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<!-- Optional folder structure -->
-		<Folder Include="UnitTests\" />
-		<Folder Include="IntegrationTests\" />
+		<!-- Project References -->
+		<ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj" />
+		<ProjectReference Include="..\DataBaseLayer\DataBaseLayer.csproj" />
+		<ProjectReference Include="..\ModelLayer\ModelLayer.csproj" />
+		<ProjectReference Include="..\FundooNotes\FundooNotes.csproj" />
 	</ItemGroup>
 
 </Project>

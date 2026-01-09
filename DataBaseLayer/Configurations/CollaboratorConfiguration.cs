@@ -1,5 +1,4 @@
 ﻿using DataBaseLayer.Entities;
-using DataBaseLayer.Enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -9,28 +8,38 @@ namespace DataBaseLayer.Configurations
     {
         public void Configure(EntityTypeBuilder<Collaborator> builder)
         {
+            builder.ToTable("Collaborators");
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Permission)
-                   .HasConversion<int>()                  // ✅ STORE AS INT
-                   .HasDefaultValue(PermissionLevel.View) // ✅ ENUM DEFAULT
-                   .IsRequired();
+                .IsRequired()
+                .HasConversion<string>()
+                .HasMaxLength(20);
 
-            builder.HasOne(x => x.Note)
-                   .WithMany(n => n.Collaborators)
-                   .HasForeignKey(x => x.NoteId)
-                   .OnDelete(DeleteBehavior.Cascade);
-
-            builder.HasOne(x => x.CollaboratorUser)
-                   .WithMany(u => u.CollaboratedNotes)
-                   .HasForeignKey(x => x.CollaboratorId)
-                   .OnDelete(DeleteBehavior.NoAction);
+            builder.Property(x => x.CreatedAt)
+                .IsRequired()
+                .HasDefaultValueSql("GETUTCDATE()");
 
             builder.HasIndex(x => new { x.NoteId, x.CollaboratorId })
-                   .IsUnique();
+                .IsUnique()
+                .HasDatabaseName("IX_Collaborators_NoteId_CollaboratorId");
 
-            builder.HasIndex(x => x.NoteId);
-            builder.HasIndex(x => x.CollaboratorId);
+            builder.HasIndex(x => x.NoteId)
+                .HasDatabaseName("IX_Collaborators_NoteId");
+
+            builder.HasIndex(x => x.CollaboratorId)
+                .HasDatabaseName("IX_Collaborators_CollaboratorId");
+
+            // Relationships
+            builder.HasOne(c => c.Note)
+                .WithMany(n => n.Collaborators)
+                .HasForeignKey(c => c.NoteId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasOne(c => c.CollaboratorUser)
+                .WithMany(u => u.CollaboratedNotes)
+                .HasForeignKey(c => c.CollaboratorId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

@@ -1,15 +1,33 @@
 ﻿namespace ModelLayer.Responses
 {
-    public class ApiResponse<T>
+    public class ApiResponse
     {
-        public bool Success { get; init; }
-        public string Message { get; init; } = string.Empty;
-        public T? Data { get; init; }
+        public bool Success { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
 
-        public static ApiResponse<T> Ok(T data, string message = "")
-            => new ApiResponse<T> { Success = true, Data = data, Message = message };
+        public static ApiResponse SuccessResponse(string message)
+        {
+            return new ApiResponse
+            {
+                Success = true,
+                Message = message
+            };
+        }
+    }
 
-        public static ApiResponse<T> Fail(string message)
-            => new ApiResponse<T> { Success = false, Message = message };
+    public class ApiResponse<T> : ApiResponse
+    {
+        public T? Data { get; set; }
+
+        public static ApiResponse<T> SuccessResponse(T data, string message = "Success")
+        {
+            return new ApiResponse<T>
+            {
+                Success = true,
+                Message = message,
+                Data = data
+            };
+        }
     }
 }

@@ -10,34 +10,44 @@ namespace DataBaseLayer.Context
         {
         }
 
+        // DbSets
         public DbSet<User> Users => Set<User>();
         public DbSet<Note> Notes => Set<Note>();
         public DbSet<Label> Labels => Set<Label>();
+        public DbSet<NoteLabel> NoteLabels => Set<NoteLabel>();
         public DbSet<Collaborator> Collaborators => Set<Collaborator>();
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.ApplyConfigurationsFromAssembly(
-                typeof(FundooAppDbContext).Assembly);
+            // Apply all entity configurations from assembly
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(FundooAppDbContext).Assembly);
+        }
 
-            modelBuilder.Entity<Note>()
-                .HasMany(n => n.Labels)
-                .WithMany(l => l.Notes)
-                .UsingEntity<Dictionary<string, object>>(
-                    "LabelNote",
-                    j => j
-                        .HasOne<Label>()
-                        .WithMany()
-                        .HasForeignKey("LabelsId")
-                        .OnDelete(DeleteBehavior.Cascade),
-                    j => j
-                        .HasOne<Note>()
-                        .WithMany()
-                        .HasForeignKey("NotesId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                );
+        public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+        {
+            // Automatically set UpdatedAt for modified entities
+            var entries = ChangeTracker.Entries()
+                .Where(e => e.State == EntityState.Modified);
+
+            foreach (var entry in entries)
+            {
+                if (entry.Entity is Note note)
+                {
+                    note.UpdatedAt = DateTime.UtcNow;
+                }
+                else if (entry.Entity is User user)
+                {
+                    user.UpdatedAt = DateTime.UtcNow;
+                }
+                else if (entry.Entity is Collaborator collaborator)
+                {
+                    collaborator.UpdatedAt = DateTime.UtcNow;
+                }
+            }
+
+            return base.SaveChangesAsync(cancellationToken);
         }
     }
 }

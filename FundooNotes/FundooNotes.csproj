@@ -4,26 +4,30 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-
-		<NuGetAuditMode>direct</NuGetAuditMode>
-		<NuGetAudit>false</NuGetAudit>
+		<UserSecretsId>fundoo-notes-2026</UserSecretsId>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<!-- Core -->
-		<PackageReference Include="AutoMapper" Version="16.0.0" />
-		<PackageReference Include="Azure.Identity" Version="1.17.1" />
+		<!-- Authentication & Security -->
+		<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+		<PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore" Version="8.0.11" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.2" />
 
-		<!-- JWT Authentication -->
-		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
-
-		<!-- EF Core design-time -->
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+		<!-- Database -->
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
 			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 
-		<!-- ✅ Swagger (STABLE & RECOMMENDED) -->
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+		<!-- API Documentation -->
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.8.1" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.11" />
 	</ItemGroup>
 
 	<ItemGroup>

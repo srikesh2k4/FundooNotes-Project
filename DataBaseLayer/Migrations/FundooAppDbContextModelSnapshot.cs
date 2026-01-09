@@ -17,7 +17,7 @@ namespace DataBaseLayer.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.7")
+                .HasAnnotation("ProductVersion", "8.0.11")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -33,24 +33,35 @@ namespace DataBaseLayer.Migrations
                     b.Property<int>("CollaboratorId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
                     b.Property<int>("NoteId")
                         .HasColumnType("int");
 
-                    b.Property<int>("Permission")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasDefaultValue(0);
+                    b.Property<string>("Permission")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CollaboratorId");
+                    b.HasIndex("CollaboratorId")
+                        .HasDatabaseName("IX_Collaborators_CollaboratorId");
 
-                    b.HasIndex("NoteId");
+                    b.HasIndex("NoteId")
+                        .HasDatabaseName("IX_Collaborators_NoteId");
 
                     b.HasIndex("NoteId", "CollaboratorId")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasDatabaseName("IX_Collaborators_NoteId_CollaboratorId");
 
-                    b.ToTable("Collaborators");
+                    b.ToTable("Collaborators", (string)null);
                 });
 
             modelBuilder.Entity("DataBaseLayer.Entities.Label", b =>
@@ -61,10 +72,15 @@ namespace DataBaseLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<int>("UserId")
                         .HasColumnType("int");
@@ -72,9 +88,10 @@ namespace DataBaseLayer.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("UserId", "Name")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasDatabaseName("IX_Labels_UserId_Name");
 
-                    b.ToTable("Labels");
+                    b.ToTable("Labels", (string)null);
                 });
 
             modelBuilder.Entity("DataBaseLayer.Entities.Note", b =>
@@ -88,12 +105,11 @@ namespace DataBaseLayer.Migrations
                     b.Property<string>("Color")
                         .IsRequired()
                         .ValueGeneratedOnAdd()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)")
+                        .HasMaxLength(7)
+                        .HasColumnType("nvarchar(7)")
                         .HasDefaultValue("#FFFFFF");
 
                     b.Property<string>("Content")
-                        .IsRequired()
                         .HasMaxLength(10000)
                         .HasColumnType("nvarchar(max)");
 
@@ -102,7 +118,15 @@ namespace DataBaseLayer.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("GETUTCDATE()");
 
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
                     b.Property<bool>("IsArchived")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<bool>("IsDeleted")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
@@ -113,11 +137,8 @@ namespace DataBaseLayer.Migrations
                         .HasDefaultValue(false);
 
                     b.Property<string>("Title")
-                        .IsRequired()
-                        .ValueGeneratedOnAdd()
                         .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)")
-                        .HasDefaultValue("Untitled");
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<DateTime?>("UpdatedAt")
                         .HasColumnType("datetime2");
@@ -127,14 +148,40 @@ namespace DataBaseLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("UserId")
+                        .HasDatabaseName("IX_Notes_UserId");
 
-                    b.HasIndex("UserId", "IsArchived");
+                    b.HasIndex("UserId", "IsDeleted")
+                        .HasDatabaseName("IX_Notes_UserId_IsDeleted");
 
                     b.HasIndex("UserId", "IsPinned")
-                        .HasFilter("[IsPinned] = 1");
+                        .HasDatabaseName("IX_Notes_UserId_IsPinned");
 
-                    b.ToTable("Notes");
+                    b.ToTable("Notes", (string)null);
+                });
+
+            modelBuilder.Entity("DataBaseLayer.Entities.NoteLabel", b =>
+                {
+                    b.Property<int>("NoteId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("LabelId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
+                    b.HasKey("NoteId", "LabelId");
+
+                    b.HasIndex("LabelId")
+                        .HasDatabaseName("IX_NoteLabels_LabelId");
+
+                    b.HasIndex("NoteId")
+                        .HasDatabaseName("IX_NoteLabels_NoteId");
+
+                    b.ToTable("NoteLabels", (string)null);
                 });
 
             modelBuilder.Entity("DataBaseLayer.Entities.User", b =>
@@ -145,6 +192,11 @@ namespace DataBaseLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<DateTime>("CreatedAt")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValueSql("GETUTCDATE()");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(255)
@@ -154,56 +206,68 @@ namespace DataBaseLayer.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("EmailVerificationToken")
-                        .HasMaxLength(450)
-                        .HasColumnType("nvarchar(450)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("FailedLoginAttempts")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
 
                     b.Property<bool>("IsEmailVerified")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bit")
                         .HasDefaultValue(false);
 
+                    b.Property<DateTime?>("LastLoginAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("LockoutEnd")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("PasswordHash")
                         .IsRequired()
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
-                    b.Property<DateTime?>("ResetPasswordExpiry")
+                    b.Property<DateTime?>("PasswordResetExpiry")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("ResetPasswordToken")
-                        .HasMaxLength(450)
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<string>("PasswordResetToken")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("RefreshToken")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<DateTime?>("RefreshTokenExpiry")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.HasIndex("Email")
-                        .IsUnique();
+                        .IsUnique()
+                        .HasDatabaseName("IX_Users_Email");
 
-                    b.HasIndex("EmailVerificationToken");
+                    b.HasIndex("EmailVerificationToken")
+                        .HasDatabaseName("IX_Users_EmailVerificationToken");
 
-                    b.HasIndex("ResetPasswordToken");
+                    b.HasIndex("PasswordResetToken")
+                        .HasDatabaseName("IX_Users_PasswordResetToken");
 
-                    b.ToTable("Users");
-                });
+                    b.HasIndex("RefreshToken")
+                        .HasDatabaseName("IX_Users_RefreshToken");
 
-            modelBuilder.Entity("LabelNote", b =>
-                {
-                    b.Property<int>("LabelsId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("NotesId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LabelsId", "NotesId");
-
-                    b.HasIndex("NotesId");
-
-                    b.ToTable("LabelNote");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("DataBaseLayer.Entities.Collaborator", b =>
@@ -211,7 +275,7 @@ namespace DataBaseLayer.Migrations
                     b.HasOne("DataBaseLayer.Entities.User", "CollaboratorUser")
                         .WithMany("CollaboratedNotes")
                         .HasForeignKey("CollaboratorId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("DataBaseLayer.Entities.Note", "Note")
@@ -230,7 +294,7 @@ namespace DataBaseLayer.Migrations
                     b.HasOne("DataBaseLayer.Entities.User", "User")
                         .WithMany("Labels")
                         .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("User");
@@ -247,24 +311,35 @@ namespace DataBaseLayer.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("LabelNote", b =>
+            modelBuilder.Entity("DataBaseLayer.Entities.NoteLabel", b =>
                 {
-                    b.HasOne("DataBaseLayer.Entities.Label", null)
-                        .WithMany()
-                        .HasForeignKey("LabelsId")
+                    b.HasOne("DataBaseLayer.Entities.Label", "Label")
+                        .WithMany("NoteLabels")
+                        .HasForeignKey("LabelId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("DataBaseLayer.Entities.Note", "Note")
+                        .WithMany("NoteLabels")
+                        .HasForeignKey("NoteId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DataBaseLayer.Entities.Note", null)
-                        .WithMany()
-                        .HasForeignKey("NotesId")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                    b.Navigation("Label");
+
+                    b.Navigation("Note");
+                });
+
+            modelBuilder.Entity("DataBaseLayer.Entities.Label", b =>
+                {
+                    b.Navigation("NoteLabels");
                 });
 
             modelBuilder.Entity("DataBaseLayer.Entities.Note", b =>
                 {
                     b.Navigation("Collaborators");
+
+                    b.Navigation("NoteLabels");
                 });
 
             modelBuilder.Entity("DataBaseLayer.Entities.User", b =>

@@ -1,29 +1,189 @@
-﻿using BusinessLayer.Interfaces.Services;
+﻿// ========================================
+// FILE: FundooNotes/Controllers/NotesController.cs (FIXED)
+// ========================================
+using BusinessLayer.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.DTOs.Notes;
-using System.Security.Claims;
+using ModelLayer.Responses;
 
 namespace FundooNotes.Controllers
 {
     [Authorize]
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("api/notes")]
     public class NotesController : ControllerBase
     {
         private readonly INoteService _noteService;
+        private readonly ILogger<NotesController> _logger;
 
-        public NotesController(INoteService noteService)
+        public NotesController(INoteService noteService, ILogger<NotesController> logger)
         {
             _noteService = noteService;
+            _logger = logger;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Create(CreateNoteDto dto)
+        /// <summary>
+        /// Get all notes for logged-in user
+        /// </summary>
+        [HttpGet]
+        [ProducesResponseType(typeof(ApiResponse<IEnumerable<NoteResponseDto>>), StatusCodes.Status200OK)]
+        public async Task<IActionResult> GetAll()
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
-            var result = await _noteService.CreateAsync(dto, userId);
-            return Ok(result);
+            var userId = GetUserId();
+            _logger.LogInformation("Fetching all notes for user {UserId}", userId);
+
+            var notes = await _noteService.GetAllAsync(userId);
+
+            return Ok(ApiResponse<IEnumerable<NoteResponseDto>>.SuccessResponse(
+                notes, $"Retrieved {notes.Count()} notes"));
+        }
+
+        /// <summary>
+        /// Get note by ID
+        /// </summary>
+        [HttpGet("{id}")]
+        [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Fetching note {NoteId} for user {UserId}", id, userId);
+
+            var note = await _noteService.GetByIdAsync(id, userId);
+
+            if (note == null)
+                return NotFound(new ErrorResponse("Note not found", "NOT_FOUND"));
+
+            return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Note retrieved successfully"));
+        }
+
+        /// <summary>
+        /// Create a new note
+        /// </summary>
+        [HttpPost]
+        [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> Create([FromBody] CreateNoteDto dto)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Creating note for user {UserId}", userId);
+
+            var note = await _noteService.CreateAsync(dto, userId);
+
+            return StatusCode(StatusCodes.Status201Created,
+                ApiResponse<NoteResponseDto>.SuccessResponse(note, "Note created successfully"));
+        }
+
+        /// <summary>
+        /// Update a note
+        /// </summary>
+        [HttpPut("{id}")]
+        [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> Update(int id, [FromBody] UpdateNoteDto dto)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Updating note {NoteId} for user {UserId}", id, userId);
+
+            var note = await _noteService.UpdateAsync(id, dto, userId);
+
+            return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Note updated successfully"));
+        }
+
+        /// <summary>
+        /// Delete a note (soft delete)
+        /// </summary>
+        [HttpDelete("{id}")]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Deleting note {NoteId} for user {UserId}", id, userId);
+
+            await _noteService.DeleteAsync(id, userId);
+
+            return Ok(ApiResponse.SuccessResponse("Note deleted successfully"));
+        }
+
+        /// <summary>
+        /// Search notes
+        /// </summary>
+        [HttpGet("search")]
+        [ProducesResponseType(typeof(ApiResponse<IEnumerable<NoteResponseDto>>), StatusCodes.Status200OK)]
+        public async Task<IActionResult> Search([FromQuery] string query)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Searching notes for user {UserId} with query: {Query}", userId, query);
+
+            var dto = new SearchNotesDto { Query = query };
+            var notes = await _noteService.SearchAsync(dto, userId);
+
+            return Ok(ApiResponse<IEnumerable<NoteResponseDto>>.SuccessResponse(
+                notes, $"Found {notes.Count()} notes"));
+        }
+
+        /// <summary>
+        /// Toggle pin status
+        /// </summary>
+        [HttpPatch("{id}/pin")]
+        [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
+        public async Task<IActionResult> TogglePin(int id)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Toggling pin for note {NoteId}", id);
+
+            var note = await _noteService.TogglePinAsync(id, userId);
+            return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Pin status updated"));
+        }
+
+        /// <summary>
+        /// Toggle archive status
+        /// </summary>
+        [HttpPatch("{id}/archive")]
+        [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
+        public async Task<IActionResult> ToggleArchive(int id)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Toggling archive for note {NoteId}", id);
+
+            var note = await _noteService.ToggleArchiveAsync(id, userId);
+            return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Archive status updated"));
+        }
+
+        /// <summary>
+        /// Update note color
+        /// </summary>
+        [HttpPatch("{id}/color")]
+        [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
+        public async Task<IActionResult> UpdateColor(int id, [FromBody] UpdateNoteColorDto dto)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Updating color for note {NoteId}", id);
+
+            var note = await _noteService.UpdateColorAsync(id, dto, userId);
+            return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Color updated successfully"));
+        }
+
+        /// <summary>
+        /// Bulk delete notes
+        /// </summary>
+        [HttpPost("bulk-delete")]
+        [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
+        public async Task<IActionResult> BulkDelete([FromBody] BulkDeleteDto dto)
+        {
+            var userId = GetUserId();
+            _logger.LogInformation("Bulk deleting notes for user {UserId}", userId);
+
+            await _noteService.BulkDeleteAsync(dto, userId);
+            return Ok(ApiResponse.SuccessResponse("Notes deleted successfully"));
+        }
+
+        private int GetUserId()
+        {
+            var userIdClaim = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+            return int.Parse(userIdClaim ?? "0");
         }
     }
 }

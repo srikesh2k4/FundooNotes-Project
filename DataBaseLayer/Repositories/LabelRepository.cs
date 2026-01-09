@@ -14,21 +14,38 @@ namespace DataBaseLayer.Repositories
             _context = context;
         }
 
-        public async Task AddAsync(Label label)
+        public async Task<Label?> GetByIdAsync(int id)
         {
-            await _context.Labels.AddAsync(label);
+            return await _context.Labels
+                .Include(l => l.NoteLabels)
+                    .ThenInclude(nl => nl.Note)
+                .FirstOrDefaultAsync(l => l.Id == id);
         }
 
         public async Task<IEnumerable<Label>> GetByUserAsync(int userId)
         {
             return await _context.Labels
                 .Where(l => l.UserId == userId)
+                .OrderBy(l => l.Name)
                 .ToListAsync();
         }
 
-        public async Task<Label?> GetByIdAsync(int id)
+        public async Task<bool> ExistsForUserAsync(string name, int userId, int? excludeLabelId = null)
         {
-            return await _context.Labels.FindAsync(id);
+            var query = _context.Labels
+                .Where(l => l.UserId == userId && l.Name.ToLower() == name.ToLower());
+
+            if (excludeLabelId.HasValue)
+            {
+                query = query.Where(l => l.Id != excludeLabelId.Value);
+            }
+
+            return await query.AnyAsync();
+        }
+
+        public async Task AddAsync(Label label)
+        {
+            await _context.Labels.AddAsync(label);
         }
 
         public Task DeleteAsync(Label label)

@@ -8,20 +8,26 @@ namespace DataBaseLayer.Configurations
     {
         public void Configure(EntityTypeBuilder<Label> builder)
         {
+            builder.ToTable("Labels");
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Name)
-                   .IsRequired()
-                   .HasMaxLength(100);
+                .IsRequired()
+                .HasMaxLength(50);
 
-            // 🔑 FIX: Prevent multiple cascade paths
-            builder.HasOne(x => x.User)
-                   .WithMany(u => u.Labels)
-                   .HasForeignKey(x => x.UserId)
-                   .OnDelete(DeleteBehavior.NoAction);
+            builder.Property(x => x.CreatedAt)
+                .IsRequired()
+                .HasDefaultValueSql("GETUTCDATE()");
 
             builder.HasIndex(x => new { x.UserId, x.Name })
-                   .IsUnique();
+                .IsUnique()
+                .HasDatabaseName("IX_Labels_UserId_Name");
+
+            // Relationships
+            builder.HasMany(l => l.NoteLabels)
+                .WithOne(nl => nl.Label)
+                .HasForeignKey(nl => nl.LabelId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

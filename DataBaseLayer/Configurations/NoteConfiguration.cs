@@ -8,41 +8,52 @@ namespace DataBaseLayer.Configurations
     {
         public void Configure(EntityTypeBuilder<Note> builder)
         {
+            builder.ToTable("Notes");
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.Title)
-                   .IsRequired()
-                   .HasMaxLength(200)
-                   .HasDefaultValue("Untitled");
+                .HasMaxLength(200);
 
             builder.Property(x => x.Content)
-                   .HasMaxLength(10000);
+                .HasMaxLength(10000);
 
             builder.Property(x => x.Color)
-                   .IsRequired()
-                   .HasMaxLength(20)
-                   .HasDefaultValue("#FFFFFF");
+                .HasMaxLength(7)
+                .HasDefaultValue("#FFFFFF");
 
             builder.Property(x => x.IsPinned)
-                   .HasDefaultValue(false);
+                .HasDefaultValue(false);
 
             builder.Property(x => x.IsArchived)
-                   .HasDefaultValue(false);
+                .HasDefaultValue(false);
+
+            builder.Property(x => x.IsDeleted)
+                .HasDefaultValue(false);
 
             builder.Property(x => x.CreatedAt)
-                   .HasDefaultValueSql("GETUTCDATE()");
-
-            // ✅ Keep this cascade (User → Notes)
-            builder.HasOne(x => x.User)
-                   .WithMany(u => u.Notes)
-                   .HasForeignKey(x => x.UserId)
-                   .OnDelete(DeleteBehavior.Cascade);
+                .IsRequired()
+                .HasDefaultValueSql("GETUTCDATE()");
 
             // Indexes
-            builder.HasIndex(x => x.UserId);
-            builder.HasIndex(x => new { x.UserId, x.IsArchived });
+            builder.HasIndex(x => x.UserId)
+                .HasDatabaseName("IX_Notes_UserId");
+
+            builder.HasIndex(x => new { x.UserId, x.IsDeleted })
+                .HasDatabaseName("IX_Notes_UserId_IsDeleted");
+
             builder.HasIndex(x => new { x.UserId, x.IsPinned })
-                   .HasFilter("[IsPinned] = 1");
+                .HasDatabaseName("IX_Notes_UserId_IsPinned");
+
+            // Relationships
+            builder.HasMany(n => n.NoteLabels)
+                .WithOne(nl => nl.Note)
+                .HasForeignKey(nl => nl.NoteId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            builder.HasMany(n => n.Collaborators)
+                .WithOne(c => c.Note)
+                .HasForeignKey(c => c.NoteId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

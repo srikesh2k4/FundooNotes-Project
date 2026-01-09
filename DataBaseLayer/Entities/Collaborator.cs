@@ -6,12 +6,19 @@ namespace DataBaseLayer.Entities
     {
         public int Id { get; set; }
 
+        // Foreign Keys
         public int NoteId { get; set; }
-        public Note Note { get; set; } = null!;
-
         public int CollaboratorId { get; set; }
-        public User CollaboratorUser { get; set; } = null!;
 
+        // Permission
         public PermissionLevel Permission { get; set; }
+
+        // Timestamps
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+
+        // Navigation Properties
+        public Note Note { get; set; } = null!;
+        public User CollaboratorUser { get; set; } = null!;
     }
 }

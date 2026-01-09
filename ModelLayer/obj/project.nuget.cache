@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MxcDqJr5xYI=",
+  "dgSpecHash": "t0roU0sYp4c=",
   "success": true,
   "projectFilePath": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\KOTIPALLI SRIKESH\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

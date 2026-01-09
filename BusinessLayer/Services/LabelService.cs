@@ -16,14 +16,48 @@ namespace BusinessLayer.Services
             _labelRepository = labelRepository;
         }
 
+        public async Task<IEnumerable<LabelResponseDto>> GetByUserAsync(int userId)
+        {
+            var labels = await _labelRepository.GetByUserAsync(userId);
+            return labels.Select(l => new LabelResponseDto
+            {
+                Id = l.Id,
+                Name = l.Name,
+                CreatedAt = l.CreatedAt
+            });
+        }
+
+        public async Task<LabelResponseDto?> GetByIdAsync(int labelId, int userId)
+        {
+            var label = await _labelRepository.GetByIdAsync(labelId);
+
+            if (label == null)
+                return null;
+
+            if (label.UserId != userId)
+                throw new UnauthorizedException("Access denied to this label");
+
+            return new LabelResponseDto
+            {
+                Id = label.Id,
+                Name = label.Name,
+                CreatedAt = label.CreatedAt
+            };
+        }
+
         public async Task<LabelResponseDto> CreateAsync(CreateLabelDto dto, int userId)
         {
             LabelRules.ValidateName(dto.Name);
 
+            // Check for duplicate label name for this user
+            if (await _labelRepository.ExistsForUserAsync(dto.Name, userId))
+                throw new ValidationException("A label with this name already exists");
+
             var label = new Label
             {
-                Name = dto.Name,
-                UserId = userId
+                Name = dto.Name.Trim(),
+                UserId = userId,
+                CreatedAt = DateTime.UtcNow
             };
 
             await _labelRepository.AddAsync(label);
@@ -32,19 +66,35 @@ namespace BusinessLayer.Services
             return new LabelResponseDto
             {
                 Id = label.Id,
-                Name = label.Name
+                Name = label.Name,
+                CreatedAt = label.CreatedAt
             };
         }
 
-        public async Task<IEnumerable<LabelResponseDto>> GetByUserAsync(int userId)
+        public async Task<LabelResponseDto> UpdateAsync(int labelId, UpdateLabelDto dto, int userId)
         {
-            var labels = await _labelRepository.GetByUserAsync(userId);
+            LabelRules.ValidateName(dto.Name);
 
-            return labels.Select(label => new LabelResponseDto
+            var label = await _labelRepository.GetByIdAsync(labelId)
+                ?? throw new NotFoundException("Label not found");
+
+            if (label.UserId != userId)
+                throw new UnauthorizedException("Access denied to this label");
+
+            // Check for duplicate name (excluding current label)
+            if (await _labelRepository.ExistsForUserAsync(dto.Name, userId, labelId))
+                throw new ValidationException("A label with this name already exists");
+
+            label.Name = dto.Name.Trim();
+
+            await _labelRepository.SaveAsync();
+
+            return new LabelResponseDto
             {
                 Id = label.Id,
-                Name = label.Name
-            });
+                Name = label.Name,
+                CreatedAt = label.CreatedAt
+            };
         }
 
         public async Task DeleteAsync(int labelId, int userId)
@@ -53,7 +103,7 @@ namespace BusinessLayer.Services
                 ?? throw new NotFoundException("Label not found");
 
             if (label.UserId != userId)
-                throw new UnauthorizedException("Access denied");
+                throw new UnauthorizedException("Access denied to this label");
 
             await _labelRepository.DeleteAsync(label);
             await _labelRepository.SaveAsync();

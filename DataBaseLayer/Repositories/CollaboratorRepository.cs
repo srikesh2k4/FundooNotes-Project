@@ -14,28 +14,49 @@ namespace DataBaseLayer.Repositories
             _context = context;
         }
 
-        public async Task AddAsync(Collaborator collaborator)
-        {
-            await _context.Collaborators.AddAsync(collaborator);
-        }
-
         public async Task<Collaborator?> GetByIdAsync(int id)
         {
             return await _context.Collaborators
                 .FirstOrDefaultAsync(c => c.Id == id);
         }
 
+        public async Task<Collaborator?> GetByIdWithUserAsync(int id)
+        {
+            return await _context.Collaborators
+                .Include(c => c.CollaboratorUser)
+                .FirstOrDefaultAsync(c => c.Id == id);
+        }
+
+        public async Task<Collaborator?> GetByNoteAndUserAsync(int noteId, int userId)
+        {
+            return await _context.Collaborators
+                .FirstOrDefaultAsync(c => c.NoteId == noteId && c.CollaboratorId == userId);
+        }
+
+        public async Task<IEnumerable<Collaborator>> GetByNoteIdAsync(int noteId)
+        {
+            return await _context.Collaborators
+                .Include(c => c.CollaboratorUser)
+                .Where(c => c.NoteId == noteId)
+                .OrderBy(c => c.CreatedAt)
+                .ToListAsync();
+        }
+
         public async Task<bool> ExistsAsync(int noteId, int collaboratorUserId)
         {
             return await _context.Collaborators
-                .AnyAsync(c =>
-                    c.NoteId == noteId &&
-                    c.CollaboratorId == collaboratorUserId);
+                .AnyAsync(c => c.NoteId == noteId && c.CollaboratorId == collaboratorUserId);
         }
 
-        public async Task DeleteAsync(Collaborator collaborator)
+        public async Task AddAsync(Collaborator collaborator)
+        {
+            await _context.Collaborators.AddAsync(collaborator);
+        }
+
+        public Task DeleteAsync(Collaborator collaborator)
         {
             _context.Collaborators.Remove(collaborator);
+            return Task.CompletedTask;
         }
 
         public async Task SaveAsync()

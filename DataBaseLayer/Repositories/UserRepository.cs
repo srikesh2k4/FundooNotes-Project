@@ -14,15 +14,35 @@ namespace DataBaseLayer.Repositories
             _context = context;
         }
 
+        public async Task<User?> GetByIdAsync(int id)
+        {
+            return await _context.Users
+                .AsNoTracking()
+                .FirstOrDefaultAsync(x => x.Id == id);
+        }
+
         public async Task<User?> GetByEmailAsync(string email)
         {
             return await _context.Users
                 .FirstOrDefaultAsync(x => x.Email == email);
         }
 
-        public async Task<User?> GetByIdAsync(int id)
+        public async Task<User?> GetByRefreshTokenAsync(string refreshToken)
         {
-            return await _context.Users.FindAsync(id);
+            return await _context.Users
+                .FirstOrDefaultAsync(x => x.RefreshToken == refreshToken);
+        }
+
+        public async Task<User?> GetByResetTokenAsync(string resetToken)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(x => x.PasswordResetToken == resetToken);
+        }
+
+        public async Task<User?> GetByEmailVerificationTokenAsync(string token)
+        {
+            return await _context.Users
+                .FirstOrDefaultAsync(x => x.EmailVerificationToken == token);
         }
 
         public async Task AddAsync(User user)
