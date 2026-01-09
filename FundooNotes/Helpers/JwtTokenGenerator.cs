@@ -1,6 +1,4 @@
-﻿// ========================================
-// FILE: FundooNotes/Helpers/JwtTokenGenerator.cs
-// ========================================
+﻿
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using ModelLayer.Configuration;

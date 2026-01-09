@@ -1,7 +1,4 @@
-﻿// ========================================
-// FILE: FundooNotes/Controllers/NotesController.cs (FIXED)
-// ========================================
-using BusinessLayer.Interfaces.Services;
+﻿using BusinessLayer.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ModelLayer.DTOs.Notes;
@@ -22,10 +19,7 @@ namespace FundooNotes.Controllers
             _noteService = noteService;
             _logger = logger;
         }
-
-        /// <summary>
         /// Get all notes for logged-in user
-        /// </summary>
         [HttpGet]
         [ProducesResponseType(typeof(ApiResponse<IEnumerable<NoteResponseDto>>), StatusCodes.Status200OK)]
         public async Task<IActionResult> GetAll()
@@ -39,9 +33,9 @@ namespace FundooNotes.Controllers
                 notes, $"Retrieved {notes.Count()} notes"));
         }
 
-        /// <summary>
+
         /// Get note by ID
-        /// </summary>
+
         [HttpGet("{id}")]
         [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
@@ -58,9 +52,9 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Note retrieved successfully"));
         }
 
-        /// <summary>
+
         /// Create a new note
-        /// </summary>
+
         [HttpPost]
         [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
@@ -75,9 +69,8 @@ namespace FundooNotes.Controllers
                 ApiResponse<NoteResponseDto>.SuccessResponse(note, "Note created successfully"));
         }
 
-        /// <summary>
+   
         /// Update a note
-        /// </summary>
         [HttpPut("{id}")]
         [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
@@ -91,9 +84,7 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Note updated successfully"));
         }
 
-        /// <summary>
         /// Delete a note (soft delete)
-        /// </summary>
         [HttpDelete("{id}")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
@@ -107,9 +98,9 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse.SuccessResponse("Note deleted successfully"));
         }
 
-        /// <summary>
+
         /// Search notes
-        /// </summary>
+
         [HttpGet("search")]
         [ProducesResponseType(typeof(ApiResponse<IEnumerable<NoteResponseDto>>), StatusCodes.Status200OK)]
         public async Task<IActionResult> Search([FromQuery] string query)
@@ -124,9 +115,9 @@ namespace FundooNotes.Controllers
                 notes, $"Found {notes.Count()} notes"));
         }
 
-        /// <summary>
+
         /// Toggle pin status
-        /// </summary>
+
         [HttpPatch("{id}/pin")]
         [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
         public async Task<IActionResult> TogglePin(int id)
@@ -138,9 +129,9 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Pin status updated"));
         }
 
-        /// <summary>
+
         /// Toggle archive status
-        /// </summary>
+
         [HttpPatch("{id}/archive")]
         [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
         public async Task<IActionResult> ToggleArchive(int id)
@@ -152,9 +143,9 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Archive status updated"));
         }
 
-        /// <summary>
+
         /// Update note color
-        /// </summary>
+
         [HttpPatch("{id}/color")]
         [ProducesResponseType(typeof(ApiResponse<NoteResponseDto>), StatusCodes.Status200OK)]
         public async Task<IActionResult> UpdateColor(int id, [FromBody] UpdateNoteColorDto dto)
@@ -166,9 +157,8 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse<NoteResponseDto>.SuccessResponse(note, "Color updated successfully"));
         }
 
-        /// <summary>
+
         /// Bulk delete notes
-        /// </summary>
         [HttpPost("bulk-delete")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
         public async Task<IActionResult> BulkDelete([FromBody] BulkDeleteDto dto)

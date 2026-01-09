@@ -1,6 +1,4 @@
-﻿// ========================================
-// FILE: FundooNotes/Controllers/CollaboratorsController.cs (FIXED)
-// ========================================
+﻿
 using BusinessLayer.Interfaces.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -25,9 +23,9 @@ namespace FundooNotes.Controllers
             _logger = logger;
         }
 
-        /// <summary>
+
         /// Get all collaborators for a note
-        /// </summary>
+
         [HttpGet("note/{noteId}")]
         [ProducesResponseType(typeof(ApiResponse<IEnumerable<CollaboratorResponseDto>>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
@@ -42,9 +40,9 @@ namespace FundooNotes.Controllers
                 collaborators, $"Retrieved {collaborators.Count()} collaborators"));
         }
 
-        /// <summary>
+
         /// Add a collaborator to a note
-        /// </summary>
+
         [HttpPost]
         [ProducesResponseType(typeof(ApiResponse<CollaboratorResponseDto>), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
@@ -60,9 +58,9 @@ namespace FundooNotes.Controllers
                     collaborator, "Collaborator added successfully"));
         }
 
-        /// <summary>
+
         /// Update collaborator permission
-        /// </summary>
+
         [HttpPut("{id}/permission")]
         [ProducesResponseType(typeof(ApiResponse<CollaboratorResponseDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]
@@ -77,9 +75,8 @@ namespace FundooNotes.Controllers
                 collaborator, "Permission updated successfully"));
         }
 
-        /// <summary>
+
         /// Remove a collaborator
-        /// </summary>
         [HttpDelete("{id}")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status404NotFound)]

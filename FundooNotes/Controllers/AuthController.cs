@@ -28,10 +28,8 @@ namespace FundooNotes.Controllers
             _emailSender = emailSender;
             _logger = logger;
         }
-
-        /// <summary>
         /// Register a new user
-        /// </summary>
+
         [HttpPost("register")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
@@ -50,9 +48,8 @@ namespace FundooNotes.Controllers
                 ApiResponse.SuccessResponse("Registration successful. Please verify your email with the OTP sent"));
         }
 
-        /// <summary>
+
         /// Verify email with OTP
-        /// </summary>
         [HttpPost("verify-otp")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
@@ -67,9 +64,8 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse.SuccessResponse("Email verified successfully. You can now login"));
         }
 
-        /// <summary>
+
         /// Login user
-        /// </summary>
         [HttpPost("login")]
         [ProducesResponseType(typeof(ApiResponse<AuthResponseDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status401Unauthorized)]
@@ -88,9 +84,8 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse<AuthResponseDto>.SuccessResponse(result, "Login successful"));
         }
 
-        /// <summary>
+
         /// Refresh access token
-        /// </summary>
         [HttpPost("refresh-token")]
         [ProducesResponseType(typeof(ApiResponse<AuthResponseDto>), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status401Unauthorized)]
@@ -109,9 +104,8 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse<AuthResponseDto>.SuccessResponse(result, "Token refreshed successfully"));
         }
 
-        /// <summary>
+
         /// Request password reset
-        /// </summary>
         [HttpPost("forgot-password")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
@@ -126,9 +120,7 @@ namespace FundooNotes.Controllers
                 "If the email exists, a password reset link has been sent"));
         }
 
-        /// <summary>
         /// Reset password with token
-        /// </summary>
         [HttpPost("reset-password")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ErrorResponse), StatusCodes.Status400BadRequest)]
@@ -143,9 +135,8 @@ namespace FundooNotes.Controllers
             return Ok(ApiResponse.SuccessResponse("Password reset successfully. You can now login"));
         }
 
-        /// <summary>
+
         /// Logout user
-        /// </summary>
         [Authorize]
         [HttpPost("logout")]
         [ProducesResponseType(typeof(ApiResponse), StatusCodes.Status200OK)]
