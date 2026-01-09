@@ -14,14 +14,15 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-// 1. CONFIGURATION SETTINGS (CRITICAL - BIND SmtpSettings!)
-
+// ========================================
+// 1. CONFIGURATION SETTINGS
+// ========================================
 builder.Services.Configure<SmtpSettings>(builder.Configuration.GetSection("SmtpSettings"));
+builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
 
-
+// ========================================
 // 2. DATABASE CONFIGURATION
-
+// ========================================
 var connectionString = builder.Configuration.GetConnectionString("FundooConnection");
 if (string.IsNullOrEmpty(connectionString))
 {
@@ -34,27 +35,31 @@ builder.Services.AddDbContext<FundooAppDbContext>(options =>
         connectionString,
         sqlOptions => sqlOptions.EnableRetryOnFailure()));
 
-
+// ========================================
 // 3. REPOSITORY REGISTRATION
+// ========================================
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<INoteRepository, NoteRepository>();
 builder.Services.AddScoped<ILabelRepository, LabelRepository>();
 builder.Services.AddScoped<ICollaboratorRepository, CollaboratorRepository>();
 
-
+// ========================================
 // 4. SERVICE REGISTRATION
+// ========================================
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<INoteService, NoteService>();
 builder.Services.AddScoped<ILabelService, LabelService>();
 builder.Services.AddScoped<ICollaboratorService, CollaboratorService>();
 
+// ========================================
 // 5. HELPER REGISTRATION
-
+// ========================================
 builder.Services.AddScoped<JwtTokenGenerator>();
 builder.Services.AddScoped<OtpEmailSender>();
 
+// ========================================
 // 6. JWT AUTHENTICATION
-
+// ========================================
 var jwtKey = builder.Configuration["Jwt:Key"];
 var jwtIssuer = builder.Configuration["Jwt:Issuer"];
 var jwtAudience = builder.Configuration["Jwt:Audience"];
@@ -63,7 +68,8 @@ var jwtAudience = builder.Configuration["Jwt:Audience"];
 if (string.IsNullOrEmpty(jwtKey))
 {
     throw new InvalidOperationException(
-        "JWT Key is not configured. Please add 'Jwt:Key' to appsettings.json.");
+        "JWT Key is not configured. Please add 'Jwt:Key' to appsettings.json. " +
+        "Example: \"Key\": \"MySecretKeyMinimum16Characters\"");
 }
 
 if (jwtKey.Length < 16)
@@ -109,9 +115,9 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-
+// ========================================
 // 7. CORS POLICY
-
+// ========================================
 var corsOrigins = builder.Configuration.GetSection("CorsSettings:AllowedOrigins").Get<string[]>();
 
 builder.Services.AddCors(options =>
@@ -127,6 +133,7 @@ builder.Services.AddCors(options =>
         }
         else
         {
+            // Fallback for development - allow all origins
             policy.AllowAnyOrigin()
                   .AllowAnyMethod()
                   .AllowAnyHeader();
@@ -134,15 +141,15 @@ builder.Services.AddCors(options =>
     });
 });
 
-
+// ========================================
 // 8. CONTROLLERS & API EXPLORER
-
+// ========================================
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-
+// ========================================
 // 9. SWAGGER CONFIGURATION
-
+// ========================================
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new OpenApiInfo
@@ -157,6 +164,7 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 
+    // JWT Authentication in Swagger
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -183,16 +191,18 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-
+// ========================================
 // 10. LOGGING
+// ========================================
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 
 var app = builder.Build();
 
-
+// ========================================
 // 11. CONFIGURATION VERIFICATION (DEBUG)
+// ========================================
 Console.WriteLine("\n" + new string('=', 60));
 Console.WriteLine("🔍 CONFIGURATION VERIFICATION");
 Console.WriteLine(new string('=', 60));
@@ -201,6 +211,7 @@ Console.WriteLine($"Database: {connectionString?.Split(';')[0]}");
 Console.WriteLine($"SMTP Host: {builder.Configuration["SmtpSettings:Host"]}");
 Console.WriteLine($"SMTP From: {builder.Configuration["SmtpSettings:FromEmail"]}");
 Console.WriteLine($"SMTP Port: {builder.Configuration["SmtpSettings:Port"]}");
+Console.WriteLine($"SMTP SSL: {builder.Configuration["SmtpSettings:EnableSsl"]}");
 Console.WriteLine($"JWT Issuer: {jwtIssuer}");
 Console.WriteLine($"JWT Audience: {jwtAudience}");
 Console.WriteLine($"JWT Key Length: {jwtKey.Length} characters");
@@ -209,26 +220,40 @@ Console.WriteLine(new string('=', 60));
 Console.WriteLine("✅ All configurations loaded successfully!");
 Console.WriteLine(new string('=', 60) + "\n");
 
+// ========================================
 // 12. MIDDLEWARE PIPELINE
+// ========================================
 
+// Global Exception Handler
 app.UseMiddleware<GlobalExceptionMiddleware>();
 
+// Swagger (Development)
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(options =>
     {
         options.SwaggerEndpoint("/swagger/v1/swagger.json", "Fundoo Notes API v1");
-        options.RoutePrefix = string.Empty;
+        options.RoutePrefix = string.Empty; // Swagger at root URL
     });
 }
 
+// HTTPS Redirection
 app.UseHttpsRedirection();
+
+// CORS
 app.UseCors("FundooPolicy");
+
+// Authentication & Authorization
 app.UseAuthentication();
 app.UseAuthorization();
+
+// Controllers
 app.MapControllers();
 
+// ========================================
+// 13. RUN APPLICATION
+// ========================================
 Console.WriteLine("🚀 Fundoo Notes API is running...");
 Console.WriteLine($"📍 Swagger UI: {(app.Environment.IsDevelopment() ? "https://localhost:7014" : "Not available in production")}\n");
 

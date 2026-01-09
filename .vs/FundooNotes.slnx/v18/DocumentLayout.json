@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\fundoonotes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\migrations\\20260109040824_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\migrations\\20260109040824_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\modellayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\modellayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\databaselayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -35,28 +31,28 @@
       "RelativeMoniker": "D:0:0:{33544DFA-E679-B406-8ABE-B57F0E990966}|Testing\\Testing.csproj|solutionrelative:testing\\testing.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\helpers\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\helpers\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\enums\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\enums\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\responses\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\responses\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\responses\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\responses\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\notelabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\notelabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\modellayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\modellayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\note.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\context\\fundooappdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,8 +63,52 @@
       "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\context\\fundooappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\domain\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\domain\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\notelabelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\notelabelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\labelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\labelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\collaboratorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\collaboratorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\collaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\collaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\helpers\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\helpers\\responsehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\helpers\\otpemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,16 +119,40 @@
       "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\helpers\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\collaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\collaboratorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\configuration\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\configuration\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\migrations\\20260109040824_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\migrations\\20260109040824_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\responses\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\responses\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\responses\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\responses\\paginatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\domain\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\domain\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\labelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\labelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\controllers\\notescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\businesslayer\\rules\\collaboratorrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -239,18 +303,6 @@
       "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\configuration\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\configuration\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\configuration\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\configuration\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\repositories\\collaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\repositories\\collaboratorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -281,38 +333,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\interfaces\\inoterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\collaboratorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\collaboratorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\notelabelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\notelabelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\labelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\labelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\noteconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\collaborator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\notelabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\notelabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\entities\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\entities\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -363,22 +383,6 @@
       "RelativeMoniker": "D:0:0:{33544DFA-E679-B406-8ABE-B57F0E990966}|Testing\\Testing.csproj|solutionrelative:testing\\integration\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\fundoonotes\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25FF055C-A9F1-B2C7-0C06-F67D154296ED}|FundooNotes\\FundooNotes.csproj|solutionrelative:fundoonotes\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\modellayer\\responses\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\responses\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -403,10 +407,6 @@
       "RelativeMoniker": "D:0:0:{EDDD0BC9-FF4F-D902-77CD-90A4E331B596}|ModelLayer\\ModelLayer.csproj|solutionrelative:modellayer\\dtos\\notes\\bulkdeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\databaselayer\\enums\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FCAFBA6-9ED5-BE5D-1B6E-8539B42A179C}|DataBaseLayer\\DataBaseLayer.csproj|solutionrelative:databaselayer\\enums\\permissionlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\kotipalli srikesh\\source\\repos\\fundoonotes\\businesslayer\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0239C9A6-B7D7-D33F-C2D5-F469C95A9F18}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -426,7 +426,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -446,1100 +446,15 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ErrorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ErrorResponse.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Responses\\ErrorResponse.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ErrorResponse.cs",
-              "RelativeToolTip": "ModelLayer\\Responses\\ErrorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T03:38:45.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Program.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Program.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Program.cs",
-              "RelativeToolTip": "FundooNotes\\Program.cs",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:35:47.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.json",
-              "RelativeDocumentMoniker": "FundooNotes\\appsettings.json",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.json*",
-              "RelativeToolTip": "FundooNotes\\appsettings.json*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBwAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-09T00:52:15.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "FundooNotes\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.Development.json*",
-              "RelativeToolTip": "FundooNotes\\appsettings.Development.json*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwB8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-08T23:40:07.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Note.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Note.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\Note.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Note.cs",
-              "RelativeToolTip": "DataBaseLayer\\Entities\\Note.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:02:53.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FundooNotes.csproj",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.csproj",
-              "RelativeDocumentMoniker": "FundooNotes\\FundooNotes.csproj",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.csproj",
-              "RelativeToolTip": "FundooNotes\\FundooNotes.csproj",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-08T23:40:41.547Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20260109040824_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
-              "RelativeToolTip": "DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:08:24.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DataBaseLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\DataBaseLayer.csproj",
-              "RelativeDocumentMoniker": "DataBaseLayer\\DataBaseLayer.csproj",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\DataBaseLayer.csproj",
-              "RelativeToolTip": "DataBaseLayer\\DataBaseLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-08T23:08:19.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Testing.csproj",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Testing.csproj",
-              "RelativeDocumentMoniker": "Testing\\Testing.csproj",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Testing.csproj",
-              "RelativeToolTip": "Testing\\Testing.csproj",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-09T00:13:49.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResponseHelper.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\ResponseHelper.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\ResponseHelper.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\ResponseHelper.cs",
-              "RelativeToolTip": "FundooNotes\\Helpers\\ResponseHelper.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:33:36.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ModelLayer.csproj",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
-              "RelativeDocumentMoniker": "ModelLayer\\ModelLayer.csproj",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
-              "RelativeToolTip": "ModelLayer\\ModelLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-08T23:20:37.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaginatedResponse.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\PaginatedResponse.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Responses\\PaginatedResponse.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\PaginatedResponse.cs",
-              "RelativeToolTip": "ModelLayer\\Responses\\PaginatedResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:18:21.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "FundooNotes\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAIgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:22:47.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GlobalExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
-              "RelativeToolTip": "FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:30:25.712Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FundooAppDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
-              "RelativeToolTip": "DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T02:44:28.462Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\UserModel.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Domain\\UserModel.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\UserModel.cs",
-              "RelativeToolTip": "ModelLayer\\Domain\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:26:22.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FundooAppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContext.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Context\\FundooAppDbContext.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContext.cs",
-              "RelativeToolTip": "DataBaseLayer\\Context\\FundooAppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:05:27.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\JwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "FundooNotes\\Helpers\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:30:54.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "OtpEmailSender.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\OtpEmailSender.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\OtpEmailSender.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\OtpEmailSender.cs",
-              "RelativeToolTip": "FundooNotes\\Helpers\\OtpEmailSender.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAA4wG8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:31:24.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CollaboratorsController.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\CollaboratorsController.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\CollaboratorsController.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\CollaboratorsController.cs",
-              "RelativeToolTip": "FundooNotes\\Controllers\\CollaboratorsController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAiwGUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:28:10.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LabelsController.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\LabelsController.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\LabelsController.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\LabelsController.cs",
-              "RelativeToolTip": "FundooNotes\\Controllers\\LabelsController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAiwHMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:27:00.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "NotesController.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\NotesController.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\NotesController.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\NotesController.cs",
-              "RelativeToolTip": "FundooNotes\\Controllers\\NotesController.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAiwLwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:25:13.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CollaboratorRules.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\CollaboratorRules.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\CollaboratorRules.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\CollaboratorRules.cs",
-              "RelativeToolTip": "BusinessLayer\\Rules\\CollaboratorRules.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:58:17.625Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LabelRules.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\LabelRules.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\LabelRules.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\LabelRules.cs",
-              "RelativeToolTip": "BusinessLayer\\Rules\\LabelRules.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAiwDYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:41:47.393Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NoteRules.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\NoteRules.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\NoteRules.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\NoteRules.cs",
-              "RelativeToolTip": "BusinessLayer\\Rules\\NoteRules.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAiwIUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:41:15.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserRules.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\UserRules.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\UserRules.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\UserRules.cs",
-              "RelativeToolTip": "BusinessLayer\\Rules\\UserRules.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAiwGQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:41:16.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CollaboratorService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\CollaboratorService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Services\\CollaboratorService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\CollaboratorService.cs",
-              "RelativeToolTip": "BusinessLayer\\Services\\CollaboratorService.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAiwIAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:58:03.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "LabelService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\LabelService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Services\\LabelService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\LabelService.cs",
-              "RelativeToolTip": "BusinessLayer\\Services\\LabelService.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAiwG8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:57:23.899Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "NoteService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\NoteService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Services\\NoteService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\NoteService.cs",
-              "RelativeToolTip": "BusinessLayer\\Services\\NoteService.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAiwNMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:56:38.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\AuthService.cs",
-              "RelativeToolTip": "BusinessLayer\\Services\\AuthService.cs",
-              "ViewState": "AgIAAM0AAAAAAAAAAAAiwPoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:36:11.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ICollaboratorService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
-              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:40:48.609Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ILabelService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
-              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:40:36.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "INoteService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\INoteService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\INoteService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\INoteService.cs",
-              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\INoteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:40:21.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
-              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:39:59.276Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CollaboratorModel.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\CollaboratorModel.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Domain\\CollaboratorModel.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\CollaboratorModel.cs",
-              "RelativeToolTip": "ModelLayer\\Domain\\CollaboratorModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:30:23.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "LabelModel.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\LabelModel.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Domain\\LabelModel.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\LabelModel.cs",
-              "RelativeToolTip": "ModelLayer\\Domain\\LabelModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:30:04.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "NoteModel.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\NoteModel.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Domain\\NoteModel.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\NoteModel.cs",
-              "RelativeToolTip": "ModelLayer\\Domain\\NoteModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:29:07.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Responses\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ApiResponse.cs",
-              "RelativeToolTip": "ModelLayer\\Responses\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:38:36.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "CollaboratorResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:37:40.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UpdatePermissionDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:37:18.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "AddCollaboratorDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:37:10.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "LabelResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:36:46.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CreateLabelDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:36:17.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UpdateNoteColorDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:36:02.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "NoteResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:35:03.568Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "UpdateNoteDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:34:50.318Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CreateNoteDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:34:28.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "LogoutRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:11:11.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "LoginResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:32:11.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ResetPasswordDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:33:18.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "ForgotPasswordDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:33:04.935Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "RefreshTokenDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:32:44.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "AuthResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:32:31.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "LoginRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:31:29.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "VerifyOtpRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:31:12.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "RegisterRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:30:55.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "SecuritySettings.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SecuritySettings.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\SecuritySettings.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SecuritySettings.cs",
-              "RelativeToolTip": "ModelLayer\\Configuration\\SecuritySettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:56:52.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "CorsSettings.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\CorsSettings.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\CorsSettings.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\CorsSettings.cs",
-              "RelativeToolTip": "ModelLayer\\Configuration\\CorsSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:56:25.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "AppSettings.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\AppSettings.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\AppSettings.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\AppSettings.cs",
-              "RelativeToolTip": "ModelLayer\\Configuration\\AppSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:56:01.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "SmtpSettings.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SmtpSettings.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\SmtpSettings.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SmtpSettings.cs",
-              "RelativeToolTip": "ModelLayer\\Configuration\\SmtpSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:55:39.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\JwtSettings.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\JwtSettings.cs",
-              "RelativeToolTip": "ModelLayer\\Configuration\\JwtSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:55:10.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\User.cs",
-              "RelativeToolTip": "DataBaseLayer\\Entities\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:02:28.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "CollaboratorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:07:56.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "LabelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\LabelRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\LabelRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\LabelRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Repositories\\LabelRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA4wD0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:07:51.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAiwD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:05:58.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "NoteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\NoteRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\NoteRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\NoteRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Repositories\\NoteRepository.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAiwHUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:07:30.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "ICollaboratorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:06:38.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "ILabelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ILabelRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\ILabelRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ILabelRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Interfaces\\ILabelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:06:34.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:06:04.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "INoteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\INoteRepository.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\INoteRepository.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\INoteRepository.cs",
-              "RelativeToolTip": "DataBaseLayer\\Interfaces\\INoteRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:06:22.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "CollaboratorConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
-              "RelativeToolTip": "DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T22:43:02.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "NoteLabelConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
-              "RelativeToolTip": "DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T01:16:16.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "LabelConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\LabelConfiguration.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\LabelConfiguration.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\LabelConfiguration.cs",
-              "RelativeToolTip": "DataBaseLayer\\Configurations\\LabelConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:04:54.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "NoteConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteConfiguration.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\NoteConfiguration.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteConfiguration.cs",
-              "RelativeToolTip": "DataBaseLayer\\Configurations\\NoteConfiguration.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwDoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:04:29.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "UserConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\UserConfiguration.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\UserConfiguration.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\UserConfiguration.cs",
-              "RelativeToolTip": "DataBaseLayer\\Configurations\\UserConfiguration.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAiwGEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:04:00.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "Collaborator.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Collaborator.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\Collaborator.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Collaborator.cs",
-              "RelativeToolTip": "DataBaseLayer\\Entities\\Collaborator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:03:21.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "NoteLabel.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\NoteLabel.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\NoteLabel.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\NoteLabel.cs",
-              "RelativeToolTip": "DataBaseLayer\\Entities\\NoteLabel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T01:18:11.817Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "Label.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Label.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\Label.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Label.cs",
-              "RelativeToolTip": "DataBaseLayer\\Entities\\Label.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:03:07.767Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "20260109010743_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
-              "RelativeToolTip": "DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T01:07:43.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\launchSettings.json",
-              "RelativeDocumentMoniker": "FundooNotes\\launchSettings.json",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\launchSettings.json",
-              "RelativeToolTip": "FundooNotes\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-08T23:40:24.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "FundooNotes.http",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.http",
-              "RelativeDocumentMoniker": "FundooNotes\\FundooNotes.http",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.http",
-              "RelativeToolTip": "FundooNotes\\FundooNotes.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2026-01-09T00:52:09.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "CollaboratorControllerIntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
-              "RelativeToolTip": "Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAIwIIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:22:55.311Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "LabelControllerIntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\LabelControllerIntegrationTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Integration\\LabelControllerIntegrationTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\LabelControllerIntegrationTests.cs",
-              "RelativeToolTip": "Testing\\Integration\\LabelControllerIntegrationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:22:26.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "LabelServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\LabelServiceTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Services\\LabelServiceTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\LabelServiceTests.cs",
-              "RelativeToolTip": "Testing\\Services\\LabelServiceTests.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAIwLAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:16:05.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "CollaboratorServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\CollaboratorServiceTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Services\\CollaboratorServiceTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\CollaboratorServiceTests.cs",
-              "RelativeToolTip": "Testing\\Services\\CollaboratorServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:16:25.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "AuthControllerIntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\AuthControllerIntegrationTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Integration\\AuthControllerIntegrationTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\AuthControllerIntegrationTests.cs",
-              "RelativeToolTip": "Testing\\Integration\\AuthControllerIntegrationTests.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAIwFsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:21:13.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "NoteServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\NoteServiceTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Services\\NoteServiceTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\NoteServiceTests.cs",
-              "RelativeToolTip": "Testing\\Services\\NoteServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:14:39.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "AuthServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\AuthServiceTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Services\\AuthServiceTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\AuthServiceTests.cs",
-              "RelativeToolTip": "Testing\\Services\\AuthServiceTests.cs",
-              "ViewState": "AgIAAIoBAAAAAAAAAAAIwLQBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:14:12.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "NoteControllerIntegrationTests.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\NoteControllerIntegrationTests.cs",
-              "RelativeDocumentMoniker": "Testing\\Integration\\NoteControllerIntegrationTests.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\NoteControllerIntegrationTests.cs",
-              "RelativeToolTip": "Testing\\Integration\\NoteControllerIntegrationTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:21:59.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
-              "Title": "CustomWebApplicationFactory.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CustomWebApplicationFactory.cs",
-              "RelativeDocumentMoniker": "Testing\\Integration\\CustomWebApplicationFactory.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CustomWebApplicationFactory.cs",
-              "RelativeToolTip": "Testing\\Integration\\CustomWebApplicationFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T00:20:50.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 90,
               "Title": "BusinessLayer.csproj",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\BusinessLayer.csproj",
               "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
@@ -1552,43 +467,1166 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\PasswordHasher.cs",
-              "RelativeToolTip": "FundooNotes\\Helpers\\PasswordHasher.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:32:58.531Z"
+              "DocumentIndex": 2,
+              "Title": "FundooNotes.csproj",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.csproj",
+              "RelativeDocumentMoniker": "FundooNotes\\FundooNotes.csproj",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.csproj",
+              "RelativeToolTip": "FundooNotes\\FundooNotes.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-08T23:40:41.547Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Program.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Program.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Program.cs",
+              "RelativeToolTip": "FundooNotes\\Program.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAmwAMBAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:35:47.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\JwtSettings.cs",
+              "RelativeToolTip": "ModelLayer\\Configuration\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:55:10.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ModelLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
+              "RelativeDocumentMoniker": "ModelLayer\\ModelLayer.csproj",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\ModelLayer.csproj",
+              "RelativeToolTip": "ModelLayer\\ModelLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-08T23:20:37.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataBaseLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\DataBaseLayer.csproj",
+              "RelativeDocumentMoniker": "DataBaseLayer\\DataBaseLayer.csproj",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\DataBaseLayer.csproj",
+              "RelativeToolTip": "DataBaseLayer\\DataBaseLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-08T23:08:19.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Testing.csproj",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Testing.csproj",
+              "RelativeDocumentMoniker": "Testing\\Testing.csproj",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Testing.csproj",
+              "RelativeToolTip": "Testing\\Testing.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-09T00:13:49.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PermissionLevel.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Enums\\PermissionLevel.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Enums\\PermissionLevel.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Enums\\PermissionLevel.cs",
+              "RelativeToolTip": "DataBaseLayer\\Enums\\PermissionLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:03:46.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\User.cs",
+              "RelativeToolTip": "DataBaseLayer\\Entities\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:02:28.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NoteLabel.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\NoteLabel.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\NoteLabel.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\NoteLabel.cs",
+              "RelativeToolTip": "DataBaseLayer\\Entities\\NoteLabel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T01:18:11.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Note.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Note.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\Note.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Note.cs",
+              "RelativeToolTip": "DataBaseLayer\\Entities\\Note.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:02:53.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Label.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Label.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\Label.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Label.cs",
+              "RelativeToolTip": "DataBaseLayer\\Entities\\Label.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:03:07.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Collaborator.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Collaborator.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Entities\\Collaborator.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Entities\\Collaborator.cs",
+              "RelativeToolTip": "DataBaseLayer\\Entities\\Collaborator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:03:21.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FundooAppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
+              "RelativeToolTip": "DataBaseLayer\\Context\\FundooAppDbContextFactory.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:44:28.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FundooAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContext.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Context\\FundooAppDbContext.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Context\\FundooAppDbContext.cs",
+              "RelativeToolTip": "DataBaseLayer\\Context\\FundooAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:05:27.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "DataBaseLayer\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:04:00.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NoteLabelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
+              "RelativeToolTip": "DataBaseLayer\\Configurations\\NoteLabelConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T01:16:16.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NoteConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteConfiguration.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\NoteConfiguration.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\NoteConfiguration.cs",
+              "RelativeToolTip": "DataBaseLayer\\Configurations\\NoteConfiguration.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:04:29.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LabelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\LabelConfiguration.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\LabelConfiguration.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\LabelConfiguration.cs",
+              "RelativeToolTip": "DataBaseLayer\\Configurations\\LabelConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:04:54.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CollaboratorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
+              "RelativeToolTip": "DataBaseLayer\\Configurations\\CollaboratorConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:43:02.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CollaboratorsController.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\CollaboratorsController.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\CollaboratorsController.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\CollaboratorsController.cs",
+              "RelativeToolTip": "FundooNotes\\Controllers\\CollaboratorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:28:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "FundooNotes\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAAAIoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:22:47.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NotesController.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\NotesController.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\NotesController.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\NotesController.cs",
+              "RelativeToolTip": "FundooNotes\\Controllers\\NotesController.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAAAKAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:25:13.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ClaimsPrincipalExtensions.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Extensions\\ClaimsPrincipalExtensions.cs",
               "RelativeDocumentMoniker": "FundooNotes\\Extensions\\ClaimsPrincipalExtensions.cs",
               "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Extensions\\ClaimsPrincipalExtensions.cs",
               "RelativeToolTip": "FundooNotes\\Extensions\\ClaimsPrincipalExtensions.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:32:24.438Z"
+              "WhenOpened": "2026-01-08T23:32:24.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 24,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "FundooNotes\\Extensions\\ServiceExtensions.cs",
               "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Extensions\\ServiceExtensions.cs",
               "RelativeToolTip": "FundooNotes\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAIwJIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:32:00Z"
+              "WhenOpened": "2026-01-08T23:32:00Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ResponseHelper.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\ResponseHelper.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\ResponseHelper.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\ResponseHelper.cs",
+              "RelativeToolTip": "FundooNotes\\Helpers\\ResponseHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:33:36.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "FundooNotes\\Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:32:58.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OtpEmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\OtpEmailSender.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\OtpEmailSender.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\OtpEmailSender.cs",
+              "RelativeToolTip": "FundooNotes\\Helpers\\OtpEmailSender.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:31:24.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Helpers\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Helpers\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "FundooNotes\\Helpers\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:30:54.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\SmtpSettings.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SmtpSettings.cs",
+              "RelativeToolTip": "ModelLayer\\Configuration\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:55:39.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FundooNotes\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.Development.json",
+              "RelativeToolTip": "FundooNotes\\appsettings.Development.json",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T23:40:07.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.json",
+              "RelativeDocumentMoniker": "FundooNotes\\appsettings.json",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\appsettings.json",
+              "RelativeToolTip": "FundooNotes\\appsettings.json",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-09T00:52:15.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Responses\\ErrorResponse.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ErrorResponse.cs",
+              "RelativeToolTip": "ModelLayer\\Responses\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:38:45.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20260109040824_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
+              "RelativeToolTip": "DataBaseLayer\\Migrations\\20260109040824_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T04:08:24.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PaginatedResponse.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\PaginatedResponse.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Responses\\PaginatedResponse.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\PaginatedResponse.cs",
+              "RelativeToolTip": "ModelLayer\\Responses\\PaginatedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:18:21.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "FundooNotes\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:30:25.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\UserModel.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Domain\\UserModel.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\UserModel.cs",
+              "RelativeToolTip": "ModelLayer\\Domain\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:26:22.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LabelsController.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\LabelsController.cs",
+              "RelativeDocumentMoniker": "FundooNotes\\Controllers\\LabelsController.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\Controllers\\LabelsController.cs",
+              "RelativeToolTip": "FundooNotes\\Controllers\\LabelsController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwHMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:27:00.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CollaboratorRules.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\CollaboratorRules.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\CollaboratorRules.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\CollaboratorRules.cs",
+              "RelativeToolTip": "BusinessLayer\\Rules\\CollaboratorRules.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:58:17.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "LabelRules.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\LabelRules.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\LabelRules.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\LabelRules.cs",
+              "RelativeToolTip": "BusinessLayer\\Rules\\LabelRules.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:41:47.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "NoteRules.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\NoteRules.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\NoteRules.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\NoteRules.cs",
+              "RelativeToolTip": "BusinessLayer\\Rules\\NoteRules.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAiwIUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:41:15.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserRules.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\UserRules.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Rules\\UserRules.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Rules\\UserRules.cs",
+              "RelativeToolTip": "BusinessLayer\\Rules\\UserRules.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAiwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:41:16.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CollaboratorService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\CollaboratorService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\CollaboratorService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\CollaboratorService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\CollaboratorService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAiwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:58:03.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LabelService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\LabelService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\LabelService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\LabelService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\LabelService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAiwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:57:23.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "NoteService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\NoteService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\NoteService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\NoteService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\NoteService.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAiwNMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:56:38.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Services\\AuthService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\AuthService.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAiwPoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:36:11.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICollaboratorService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\ICollaboratorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:40:48.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ILabelService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\ILabelService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:40:36.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "INoteService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\INoteService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\INoteService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\INoteService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\INoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:40:21.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
+              "RelativeToolTip": "BusinessLayer\\Interfaces\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:39:59.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CollaboratorModel.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\CollaboratorModel.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Domain\\CollaboratorModel.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\CollaboratorModel.cs",
+              "RelativeToolTip": "ModelLayer\\Domain\\CollaboratorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:30:23.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LabelModel.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\LabelModel.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Domain\\LabelModel.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\LabelModel.cs",
+              "RelativeToolTip": "ModelLayer\\Domain\\LabelModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:30:04.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NoteModel.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\NoteModel.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Domain\\NoteModel.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Domain\\NoteModel.cs",
+              "RelativeToolTip": "ModelLayer\\Domain\\NoteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:29:07.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Responses\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\ApiResponse.cs",
+              "RelativeToolTip": "ModelLayer\\Responses\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:38:36.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CollaboratorResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Collaborators\\CollaboratorResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:37:40.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UpdatePermissionDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Collaborators\\UpdatePermissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:37:18.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AddCollaboratorDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Collaborators\\AddCollaboratorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:37:10.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "LabelResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Labels\\LabelResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:36:46.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CreateLabelDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Labels\\CreateLabelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:36:17.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "UpdateNoteColorDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\UpdateNoteColorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:36:02.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "NoteResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\NoteResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:35:03.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UpdateNoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\UpdateNoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:34:50.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "CreateNoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Notes\\CreateNoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:34:28.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "LogoutRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\LogoutRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:11:11.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "LoginResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\LoginResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:32:11.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\ResetPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:33:18.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\ForgotPasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:33:04.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "RefreshTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\RefreshTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:32:44.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:32:31.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:31:29.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "VerifyOtpRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\VerifyOtpRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:31:12.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "RelativeToolTip": "ModelLayer\\DTOs\\Auth\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T22:30:55.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "SecuritySettings.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SecuritySettings.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\SecuritySettings.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\SecuritySettings.cs",
+              "RelativeToolTip": "ModelLayer\\Configuration\\SecuritySettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:56:52.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "CorsSettings.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\CorsSettings.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\CorsSettings.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\CorsSettings.cs",
+              "RelativeToolTip": "ModelLayer\\Configuration\\CorsSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:56:25.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\AppSettings.cs",
+              "RelativeDocumentMoniker": "ModelLayer\\Configuration\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Configuration\\AppSettings.cs",
+              "RelativeToolTip": "ModelLayer\\Configuration\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:56:01.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "CollaboratorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Repositories\\CollaboratorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:07:56.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "LabelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\LabelRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\LabelRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\LabelRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Repositories\\LabelRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA4wD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:07:51.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:05:58.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "NoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\NoteRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Repositories\\NoteRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Repositories\\NoteRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Repositories\\NoteRepository.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:07:30.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "ICollaboratorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Interfaces\\ICollaboratorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:06:38.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "ILabelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ILabelRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\ILabelRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\ILabelRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Interfaces\\ILabelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:06:34.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:06:04.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "INoteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\INoteRepository.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Interfaces\\INoteRepository.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Interfaces\\INoteRepository.cs",
+              "RelativeToolTip": "DataBaseLayer\\Interfaces\\INoteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T23:06:22.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20260109010743_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
+              "RelativeDocumentMoniker": "DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
+              "RelativeToolTip": "DataBaseLayer\\Migrations\\20260109010743_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T01:07:43.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\launchSettings.json",
+              "RelativeDocumentMoniker": "FundooNotes\\launchSettings.json",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\launchSettings.json",
+              "RelativeToolTip": "FundooNotes\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T23:40:24.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "FundooNotes.http",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.http",
+              "RelativeDocumentMoniker": "FundooNotes\\FundooNotes.http",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\FundooNotes\\FundooNotes.http",
+              "RelativeToolTip": "FundooNotes\\FundooNotes.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-09T00:52:09.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "CollaboratorControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
+              "RelativeToolTip": "Testing\\Integration\\CollaboratorControllerIntegrationTests.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:22:55.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "LabelControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\LabelControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Integration\\LabelControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\LabelControllerIntegrationTests.cs",
+              "RelativeToolTip": "Testing\\Integration\\LabelControllerIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:22:26.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "LabelServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\LabelServiceTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Services\\LabelServiceTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\LabelServiceTests.cs",
+              "RelativeToolTip": "Testing\\Services\\LabelServiceTests.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAIwLAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:16:05.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "CollaboratorServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\CollaboratorServiceTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Services\\CollaboratorServiceTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\CollaboratorServiceTests.cs",
+              "RelativeToolTip": "Testing\\Services\\CollaboratorServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:16:25.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "AuthControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\AuthControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Integration\\AuthControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\AuthControllerIntegrationTests.cs",
+              "RelativeToolTip": "Testing\\Integration\\AuthControllerIntegrationTests.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAIwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:21:13.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "NoteServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\NoteServiceTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Services\\NoteServiceTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\NoteServiceTests.cs",
+              "RelativeToolTip": "Testing\\Services\\NoteServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:14:39.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "AuthServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\AuthServiceTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Services\\AuthServiceTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Services\\AuthServiceTests.cs",
+              "RelativeToolTip": "Testing\\Services\\AuthServiceTests.cs",
+              "ViewState": "AgIAAIoBAAAAAAAAAAAIwLQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:14:12.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "NoteControllerIntegrationTests.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\NoteControllerIntegrationTests.cs",
+              "RelativeDocumentMoniker": "Testing\\Integration\\NoteControllerIntegrationTests.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\NoteControllerIntegrationTests.cs",
+              "RelativeToolTip": "Testing\\Integration\\NoteControllerIntegrationTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:21:59.036Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 94,
+              "Title": "CustomWebApplicationFactory.cs",
+              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CustomWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "Testing\\Integration\\CustomWebApplicationFactory.cs",
+              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\Testing\\Integration\\CustomWebApplicationFactory.cs",
+              "RelativeToolTip": "Testing\\Integration\\CustomWebApplicationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T00:20:50.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
               "Title": "SearchRequest.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\SearchRequest.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Responses\\SearchRequest.cs",
@@ -1600,7 +1638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "PaginationRequest.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Responses\\PaginationRequest.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Responses\\PaginationRequest.cs",
@@ -1612,7 +1650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "PermissionLevel.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\Enums\\PermissionLevel.cs",
               "RelativeDocumentMoniker": "ModelLayer\\Enums\\PermissionLevel.cs",
@@ -1624,7 +1662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "UpdateLabelDto.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Labels\\UpdateLabelDto.cs",
               "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Labels\\UpdateLabelDto.cs",
@@ -1636,7 +1674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "SearchNotesDto.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\SearchNotesDto.cs",
               "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\SearchNotesDto.cs",
@@ -1648,7 +1686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "BulkDeleteDto.cs",
               "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\ModelLayer\\DTOs\\Notes\\BulkDeleteDto.cs",
               "RelativeDocumentMoniker": "ModelLayer\\DTOs\\Notes\\BulkDeleteDto.cs",
@@ -1657,18 +1695,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-08T22:35:25.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "PermissionLevel.cs",
-              "DocumentMoniker": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Enums\\PermissionLevel.cs",
-              "RelativeDocumentMoniker": "DataBaseLayer\\Enums\\PermissionLevel.cs",
-              "ToolTip": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\Enums\\PermissionLevel.cs",
-              "RelativeToolTip": "DataBaseLayer\\Enums\\PermissionLevel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T23:03:46.723Z"
             },
             {
               "$type": "Document",

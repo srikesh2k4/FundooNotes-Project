@@ -332,7 +332,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\DataBaseLayer.csproj": {
+                "projectPath": "C:\\Users\\KOTIPALLI SRIKESH\\source\\repos\\FundooNotes\\DataBaseLayer\\DataBaseLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
